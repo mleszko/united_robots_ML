@@ -7,7 +7,7 @@ from .views import homePageView
 
 
 router = routers.DefaultRouter()
-router.register(r'position', views.RobotPositionViewSet)
+router.register(r"position", views.RobotPositionViewSet)
 # router.register(r'robots', views.RobotViewSet)
 
 
